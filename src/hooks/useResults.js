@@ -12,7 +12,7 @@ export default ()=> {
                 params:{
                     limit:50,
                     term:searchTerm,
-                    location:'cary'    
+                    location:'new york'    
                 }
             });
             console.log(response.data.businesses[0])
